@@ -1,12 +1,15 @@
 import * as React from 'react'; 
 import { Link } from 'gatsby';
+import '../css/bootstrap.css';
 
 const AboutPage = () => {
   return (
-    <body>
+    <body className="p-4">
       <main>
-        <h1>About</h1>
-        <Link to="/">Home page</Link>
+        <div className="container mx-auto">
+          <h1>About</h1>
+          <Link to="/">Home page</Link>
+        </div>
       </main>
     </body>
   )
