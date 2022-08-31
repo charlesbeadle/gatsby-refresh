@@ -3,7 +3,7 @@ module.exports = {
     title: `gatsby-refresher`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", {
+  plugins: ["gatsby-plugin-image", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
